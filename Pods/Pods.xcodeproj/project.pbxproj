@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22B4C2FD88A48E0C674025AFDE9717BC /* Pods-TritonRide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18843A5A2C9A30A8DBF113F676CB5011 /* Pods-TritonRide-dummy.m */; };
+		33E5DBB9C96B56C802F1340F5CDA7A95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7052E8A1B291082A46DE3F34CB8F71F9 /* Pods-TritonRide-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD22E63FF7DC7AE456A9997DD5BD1E4 /* Pods-TritonRide-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09609AA43D4A76BC04287AEC30128D35 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		150C1D50DC0B4BE87A1E4987690D34B0 /* Pods-TritonRide.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TritonRide.modulemap"; sourceTree = "<group>"; };
+		18843A5A2C9A30A8DBF113F676CB5011 /* Pods-TritonRide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TritonRide-dummy.m"; sourceTree = "<group>"; };
+		1A787CA7F2C6B38DB8D0F905F919D18C /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		2C8F9743ED59D7BA6D8F8F90B2F5195F /* Pods-TritonRide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TritonRide.release.xcconfig"; sourceTree = "<group>"; };
+		33C7006966005338D8A9AE3856085923 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		3FD22E63FF7DC7AE456A9997DD5BD1E4 /* Pods-TritonRide-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TritonRide-umbrella.h"; sourceTree = "<group>"; };
+		4304C44C9F3C0F42A96911CD02168130 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		6DCB0EA796A66391E54FA6FC6AAD2E70 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		72997069F762EF57C0F9A171DC3F9C78 /* Pods_TritonRide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TritonRide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		872777976B0172322AAFB387A3AE5240 /* Pods-TritonRide-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TritonRide-resources.sh"; sourceTree = "<group>"; };
+		8D951270F9A4555C75D169B9BF0A8344 /* Pods-TritonRide-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TritonRide-frameworks.sh"; sourceTree = "<group>"; };
+		92CA11584C18DA8BD3DB87FFE750444B /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A298E84783D3435B31F58916615C24DC /* Pods-TritonRide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TritonRide.debug.xcconfig"; sourceTree = "<group>"; };
+		C4259236FD822FB757688F4440BBE8A3 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D782E2A3F2B9B98A22B9E3E4AC7059C6 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		DA5C99E7ABB7D46A926FC70F8A0B1F52 /* Pods-TritonRide-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TritonRide-acknowledgements.plist"; sourceTree = "<group>"; };
+		E273588652B92B82C243DC14CFBA0E16 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		EDE9B8544865B956CC2615A613B6E8B0 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		EE9AD021D0FCA179F33702BA49D1401D /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		F55057EDE2F9A8BEB0FCBFD95F1F83A3 /* Pods-TritonRide-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TritonRide-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD4210F959D333D4A0D716153BE3F563 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1FB633B443310321885154539A222A /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		193610E16245ED3CD4A1B4CAD45BDD7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E5DBB9C96B56C802F1340F5CDA7A95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B3E51F023B344F7F1523DC493C21B70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D782E2A3F2B9B98A22B9E3E4AC7059C6 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BA246EDFA1CE7219771D53151A2C5B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D7A92A77CF7F23BFBBA26198E591178 /* Firebase */,
+				B7A92C1385B294C9F0DA1F38D28CB69F /* FirebaseAnalytics */,
+				D4CA48BE55114CCE90BEB418205B60CD /* FirebaseAuth */,
+				BCF33D8C4A9347548D63B09D63655F7C /* FirebaseDatabase */,
+				A2D506B6006154234B93935C67CEBCDD /* FirebaseInstanceID */,
+				13249CD9CDB40337EB1C7509B91C2742 /* GoogleInterchangeUtilities */,
+				ED6C57290783E40FABF81234DBD744DD /* GoogleMaps */,
+				7550194A2A828E17CCAE6E9DA5609371 /* GoogleNetworkingUtilities */,
+				7B6EF89823E30AA57DFE63A54CC167D9 /* GoogleSymbolUtilities */,
+				D4D4DC777066C089A1FC772418BADB58 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		13249CD9CDB40337EB1C7509B91C2742 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8722FC6D06466169B778A9F9CDE2094D /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		1A4C1357E6F1FA5027B4ED9AABAE5017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72997069F762EF57C0F9A171DC3F9C78 /* Pods_TritonRide.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D7A92A77CF7F23BFBBA26198E591178 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				5198751DBD0EB29A2050057C7110C2A2 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5198751DBD0EB29A2050057C7110C2A2 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				E273588652B92B82C243DC14CFBA0E16 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		7550194A2A828E17CCAE6E9DA5609371 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				EFE577679AE00ECC7DD24FFE0C6F9BB7 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		77E4E85DFA2559D82B82689BE57D908A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92CA11584C18DA8BD3DB87FFE750444B /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B6EF89823E30AA57DFE63A54CC167D9 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				A59F7083564666AF410428C80DC98529 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0BA246EDFA1CE7219771D53151A2C5B8 /* Pods */,
+				1A4C1357E6F1FA5027B4ED9AABAE5017 /* Products */,
+				DA4270A4D20268B8CA582F0CE5DBAA5C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8722FC6D06466169B778A9F9CDE2094D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE1FB633B443310321885154539A222A /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A513E3927CB06955B2F22E5E1E625B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A787CA7F2C6B38DB8D0F905F919D18C /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DBC712FF355E3FE63F2BBC1BB9754CB /* Pods-TritonRide */ = {
+			isa = PBXGroup;
+			children = (
+				FD4210F959D333D4A0D716153BE3F563 /* Info.plist */,
+				150C1D50DC0B4BE87A1E4987690D34B0 /* Pods-TritonRide.modulemap */,
+				F55057EDE2F9A8BEB0FCBFD95F1F83A3 /* Pods-TritonRide-acknowledgements.markdown */,
+				DA5C99E7ABB7D46A926FC70F8A0B1F52 /* Pods-TritonRide-acknowledgements.plist */,
+				18843A5A2C9A30A8DBF113F676CB5011 /* Pods-TritonRide-dummy.m */,
+				8D951270F9A4555C75D169B9BF0A8344 /* Pods-TritonRide-frameworks.sh */,
+				872777976B0172322AAFB387A3AE5240 /* Pods-TritonRide-resources.sh */,
+				3FD22E63FF7DC7AE456A9997DD5BD1E4 /* Pods-TritonRide-umbrella.h */,
+				A298E84783D3435B31F58916615C24DC /* Pods-TritonRide.debug.xcconfig */,
+				2C8F9743ED59D7BA6D8F8F90B2F5195F /* Pods-TritonRide.release.xcconfig */,
+			);
+			name = "Pods-TritonRide";
+			path = "Target Support Files/Pods-TritonRide";
+			sourceTree = "<group>";
+		};
+		A2D506B6006154234B93935C67CEBCDD /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				33C7006966005338D8A9AE3856085923 /* FIRInstanceID.h */,
+				8A513E3927CB06955B2F22E5E1E625B2 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		A59F7083564666AF410428C80DC98529 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DCB0EA796A66391E54FA6FC6AAD2E70 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEBB4D3B9615DD42F55EDB3C80CE9293 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4259236FD822FB757688F4440BBE8A3 /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B42787246C60582344733A3B3E91F161 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09609AA43D4A76BC04287AEC30128D35 /* GoogleMaps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7A92C1385B294C9F0DA1F38D28CB69F /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				77E4E85DFA2559D82B82689BE57D908A /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		BA2AB892E16D2A5FD454205CDE4842F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EDE9B8544865B956CC2615A613B6E8B0 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCF33D8C4A9347548D63B09D63655F7C /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				E83FFB17EEE1C8109A0CB675C6276BFF /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		D4CA48BE55114CCE90BEB418205B60CD /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				AEBB4D3B9615DD42F55EDB3C80CE9293 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		D4D4DC777066C089A1FC772418BADB58 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0B3E51F023B344F7F1523DC493C21B70 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		DA4270A4D20268B8CA582F0CE5DBAA5C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DBC712FF355E3FE63F2BBC1BB9754CB /* Pods-TritonRide */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E83FFB17EEE1C8109A0CB675C6276BFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4304C44C9F3C0F42A96911CD02168130 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED6C57290783E40FABF81234DBD744DD /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				B42787246C60582344733A3B3E91F161 /* Frameworks */,
+				BA2AB892E16D2A5FD454205CDE4842F9 /* Resources */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		EFE577679AE00ECC7DD24FFE0C6F9BB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE9AD021D0FCA179F33702BA49D1401D /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2858C8BE42426F7C63931FC23DC7E748 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7052E8A1B291082A46DE3F34CB8F71F9 /* Pods-TritonRide-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DB32A98AE4FA5171777BE004E47ABCEB /* Pods-TritonRide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4964A16BE17D1907A931F487C93ABB23 /* Build configuration list for PBXNativeTarget "Pods-TritonRide" */;
+			buildPhases = (
+				AD8F3797C6AAF874887BCE289A96BBC7 /* Sources */,
+				193610E16245ED3CD4A1B4CAD45BDD7C /* Frameworks */,
+				2858C8BE42426F7C63931FC23DC7E748 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TritonRide";
+			productName = "Pods-TritonRide";
+			productReference = 72997069F762EF57C0F9A171DC3F9C78 /* Pods_TritonRide.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1A4C1357E6F1FA5027B4ED9AABAE5017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB32A98AE4FA5171777BE004E47ABCEB /* Pods-TritonRide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD8F3797C6AAF874887BCE289A96BBC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B4C2FD88A48E0C674025AFDE9717BC /* Pods-TritonRide-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		28CBBB21963F4B00EAEA6F6FF829FC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8F9743ED59D7BA6D8F8F90B2F5195F /* Pods-TritonRide.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TritonRide/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TritonRide/Pods-TritonRide.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TritonRide;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EE20D28DBD5184BB92DDDE8AB86E4E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A298E84783D3435B31F58916615C24DC /* Pods-TritonRide.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TritonRide/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TritonRide/Pods-TritonRide.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TritonRide;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4964A16BE17D1907A931F487C93ABB23 /* Build configuration list for PBXNativeTarget "Pods-TritonRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE20D28DBD5184BB92DDDE8AB86E4E94 /* Debug */,
+				28CBBB21963F4B00EAEA6F6FF829FC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

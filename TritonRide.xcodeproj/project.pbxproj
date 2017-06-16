@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34243DC21F90A45C5ABE763B /* Pods_TritonRide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F767215B22B11528C6B82495 /* Pods_TritonRide.framework */; };
+		35249AE31D065689005C439A /* driverConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35249AE21D065689005C439A /* driverConfirmViewController.swift */; };
+		352FDCDC1D040B62004AF677 /* rideTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352FDCD81D040B62004AF677 /* rideTimeViewController.swift */; };
+		352FDCE31D040BF5004AF677 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352FDCE21D040BF5004AF677 /* LocationViewController.swift */; };
+		3565C4151D06280B00447886 /* ridePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3565C4141D06280B00447886 /* ridePostViewController.swift */; };
+		35C03FE61D0753FF00ECC8BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C03FE41D0753FF00ECC8BC /* Main.storyboard */; };
+		35C03FE81D07543500ECC8BC /* rideTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C03FE71D07543500ECC8BC /* rideTime.swift */; };
+		35C03FEA1D07543F00ECC8BC /* timeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C03FE91D07543F00ECC8BC /* timeData.swift */; };
+		35C03FEC1D07552A00ECC8BC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C03FEB1D07552A00ECC8BC /* Post.swift */; };
+		35C03FEE1D075CDC00ECC8BC /* postCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C03FED1D075CDC00ECC8BC /* postCell.swift */; };
+		65049BAF1D063277005EAB45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65049BAE1D063277005EAB45 /* GoogleService-Info.plist */; };
+		65369A911D065F7C008CEDF4 /* PostInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65369A901D065F7C008CEDF4 /* PostInformation.swift */; };
+		653E69681D04C32A00007AA9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E69671D04C32A00007AA9 /* LoginViewController.swift */; };
+		653E696A1D04C6C400007AA9 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E69691D04C6C400007AA9 /* CurrentUser.swift */; };
+		657E026F1D04A72500376D8F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E026E1D04A72500376D8F /* SignUpViewController.swift */; };
+		65D193691D04001D0071E3A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D193681D04001D0071E3A9 /* AppDelegate.swift */; };
+		65D193711D04001D0071E3A9 /* TritonRide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65D1936F1D04001D0071E3A9 /* TritonRide.xcdatamodeld */; };
+		65D193731D04001D0071E3A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D193721D04001D0071E3A9 /* Assets.xcassets */; };
+		65D193801D0403900071E3A9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D1937F1D0403900071E3A9 /* MapKit.framework */; };
+		65D193821D0403CB0071E3A9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D193811D0403CB0071E3A9 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0195B9DA7A8EB875E49F992B /* Pods-TritonRide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TritonRide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TritonRide/Pods-TritonRide.debug.xcconfig"; sourceTree = "<group>"; };
+		35249AE21D065689005C439A /* driverConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = driverConfirmViewController.swift; sourceTree = "<group>"; };
+		352FDCD81D040B62004AF677 /* rideTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rideTimeViewController.swift; sourceTree = "<group>"; };
+		352FDCE01D040BCC004AF677 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		352FDCE21D040BF5004AF677 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		3565C4141D06280B00447886 /* ridePostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ridePostViewController.swift; sourceTree = "<group>"; };
+		35C03FE51D0753FF00ECC8BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35C03FE71D07543500ECC8BC /* rideTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rideTime.swift; sourceTree = "<group>"; };
+		35C03FE91D07543F00ECC8BC /* timeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timeData.swift; sourceTree = "<group>"; };
+		35C03FEB1D07552A00ECC8BC /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		35C03FED1D075CDC00ECC8BC /* postCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postCell.swift; sourceTree = "<group>"; };
+		4E94D2B842440A3F4B254704 /* Pods-TritonRide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TritonRide.release.xcconfig"; path = "Pods/Target Support Files/Pods-TritonRide/Pods-TritonRide.release.xcconfig"; sourceTree = "<group>"; };
+		65049BAE1D063277005EAB45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		65369A901D065F7C008CEDF4 /* PostInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostInformation.swift; sourceTree = "<group>"; };
+		653E69671D04C32A00007AA9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
+		653E69691D04C6C400007AA9 /* CurrentUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		657E026E1D04A72500376D8F /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		65D193651D04001D0071E3A9 /* TritonRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TritonRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D193681D04001D0071E3A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65D193701D04001D0071E3A9 /* TritonRide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TritonRide.xcdatamodel; sourceTree = "<group>"; };
+		65D193721D04001D0071E3A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65D1937F1D0403900071E3A9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		65D193811D0403CB0071E3A9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F767215B22B11528C6B82495 /* Pods_TritonRide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TritonRide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65D193621D04001D0071E3A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D193821D0403CB0071E3A9 /* CoreLocation.framework in Frameworks */,
+				65D193801D0403900071E3A9 /* MapKit.framework in Frameworks */,
+				34243DC21F90A45C5ABE763B /* Pods_TritonRide.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2849A75972EDD6E2E3676DDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65D193811D0403CB0071E3A9 /* CoreLocation.framework */,
+				65D1937F1D0403900071E3A9 /* MapKit.framework */,
+				F767215B22B11528C6B82495 /* Pods_TritonRide.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65369A921D067CAA008CEDF4 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				3565C4141D06280B00447886 /* ridePostViewController.swift */,
+				35249AE21D065689005C439A /* driverConfirmViewController.swift */,
+			);
+			name = Driver;
+			sourceTree = "<group>";
+		};
+		65369A931D067CD7008CEDF4 /* Ride */ = {
+			isa = PBXGroup;
+			children = (
+				352FDCD81D040B62004AF677 /* rideTimeViewController.swift */,
+				35C03FEB1D07552A00ECC8BC /* Post.swift */,
+			);
+			name = Ride;
+			sourceTree = "<group>";
+		};
+		65369A941D067D1B008CEDF4 /* object */ = {
+			isa = PBXGroup;
+			children = (
+				653E69691D04C6C400007AA9 /* CurrentUser.swift */,
+				65369A901D065F7C008CEDF4 /* PostInformation.swift */,
+			);
+			name = object;
+			sourceTree = "<group>";
+		};
+		65D1935C1D04001C0071E3A9 = {
+			isa = PBXGroup;
+			children = (
+				65D193671D04001D0071E3A9 /* TritonRide */,
+				65D193661D04001D0071E3A9 /* Products */,
+				A4CC628131712975BAE5B4FE /* Pods */,
+				2849A75972EDD6E2E3676DDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65D193661D04001D0071E3A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65D193651D04001D0071E3A9 /* TritonRide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65D193671D04001D0071E3A9 /* TritonRide */ = {
+			isa = PBXGroup;
+			children = (
+				65049BAE1D063277005EAB45 /* GoogleService-Info.plist */,
+				65D193681D04001D0071E3A9 /* AppDelegate.swift */,
+				653E69671D04C32A00007AA9 /* LoginViewController.swift */,
+				657E026E1D04A72500376D8F /* SignUpViewController.swift */,
+				35C03FE91D07543F00ECC8BC /* timeData.swift */,
+				35C03FE71D07543500ECC8BC /* rideTime.swift */,
+				35C03FE41D0753FF00ECC8BC /* Main.storyboard */,
+				35C03FED1D075CDC00ECC8BC /* postCell.swift */,
+				352FDCE21D040BF5004AF677 /* LocationViewController.swift */,
+				65369A941D067D1B008CEDF4 /* object */,
+				65369A931D067CD7008CEDF4 /* Ride */,
+				65369A921D067CAA008CEDF4 /* Driver */,
+				65D193721D04001D0071E3A9 /* Assets.xcassets */,
+				352FDCE01D040BCC004AF677 /* Info.plist */,
+				65D1936F1D04001D0071E3A9 /* TritonRide.xcdatamodeld */,
+			);
+			path = TritonRide;
+			sourceTree = "<group>";
+		};
+		A4CC628131712975BAE5B4FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0195B9DA7A8EB875E49F992B /* Pods-TritonRide.debug.xcconfig */,
+				4E94D2B842440A3F4B254704 /* Pods-TritonRide.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65D193641D04001D0071E3A9 /* TritonRide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D1937A1D04001D0071E3A9 /* Build configuration list for PBXNativeTarget "TritonRide" */;
+			buildPhases = (
+				F0B6C7DB3F5879EA1CCEC430 /* 📦 Check Pods Manifest.lock */,
+				65D193611D04001D0071E3A9 /* Sources */,
+				65D193621D04001D0071E3A9 /* Frameworks */,
+				65D193631D04001D0071E3A9 /* Resources */,
+				3194C7292E49B16057EF43BE /* 📦 Embed Pods Frameworks */,
+				6CA7FA5E8578E8BC4B475778 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TritonRide;
+			productName = TritonRide;
+			productReference = 65D193651D04001D0071E3A9 /* TritonRide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65D1935D1D04001C0071E3A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = UCSD;
+				TargetAttributes = {
+					65D193641D04001D0071E3A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = PJXY7Y63DH;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 65D193601D04001C0071E3A9 /* Build configuration list for PBXProject "TritonRide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65D1935C1D04001C0071E3A9;
+			productRefGroup = 65D193661D04001D0071E3A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65D193641D04001D0071E3A9 /* TritonRide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65D193631D04001D0071E3A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C03FE61D0753FF00ECC8BC /* Main.storyboard in Resources */,
+				65D193731D04001D0071E3A9 /* Assets.xcassets in Resources */,
+				65049BAF1D063277005EAB45 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3194C7292E49B16057EF43BE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TritonRide/Pods-TritonRide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CA7FA5E8578E8BC4B475778 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TritonRide/Pods-TritonRide-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0B6C7DB3F5879EA1CCEC430 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65D193611D04001D0071E3A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3565C4151D06280B00447886 /* ridePostViewController.swift in Sources */,
+				35C03FEE1D075CDC00ECC8BC /* postCell.swift in Sources */,
+				352FDCDC1D040B62004AF677 /* rideTimeViewController.swift in Sources */,
+				65D193691D04001D0071E3A9 /* AppDelegate.swift in Sources */,
+				657E026F1D04A72500376D8F /* SignUpViewController.swift in Sources */,
+				35C03FEC1D07552A00ECC8BC /* Post.swift in Sources */,
+				352FDCE31D040BF5004AF677 /* LocationViewController.swift in Sources */,
+				65D193711D04001D0071E3A9 /* TritonRide.xcdatamodeld in Sources */,
+				35C03FEA1D07543F00ECC8BC /* timeData.swift in Sources */,
+				65369A911D065F7C008CEDF4 /* PostInformation.swift in Sources */,
+				35C03FE81D07543500ECC8BC /* rideTime.swift in Sources */,
+				653E69681D04C32A00007AA9 /* LoginViewController.swift in Sources */,
+				35249AE31D065689005C439A /* driverConfirmViewController.swift in Sources */,
+				653E696A1D04C6C400007AA9 /* CurrentUser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35C03FE41D0753FF00ECC8BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C03FE51D0753FF00ECC8BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65D193781D04001D0071E3A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65D193791D04001D0071E3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65D1937B1D04001D0071E3A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0195B9DA7A8EB875E49F992B /* Pods-TritonRide.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TritonRide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IrrelevantMonkeys.TritonRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		65D1937C1D04001D0071E3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E94D2B842440A3F4B254704 /* Pods-TritonRide.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TritonRide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IrrelevantMonkeys.TritonRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65D193601D04001C0071E3A9 /* Build configuration list for PBXProject "TritonRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D193781D04001D0071E3A9 /* Debug */,
+				65D193791D04001D0071E3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D1937A1D04001D0071E3A9 /* Build configuration list for PBXNativeTarget "TritonRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D1937B1D04001D0071E3A9 /* Debug */,
+				65D1937C1D04001D0071E3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65D1936F1D04001D0071E3A9 /* TritonRide.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65D193701D04001D0071E3A9 /* TritonRide.xcdatamodel */,
+			);
+			currentVersion = 65D193701D04001D0071E3A9 /* TritonRide.xcdatamodel */;
+			path = TritonRide.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65D1935D1D04001C0071E3A9 /* Project object */;
+}
